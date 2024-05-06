@@ -1,0 +1,235 @@
+body{
+    background-color: black;
+    font-family: var(--font--dm-sans);
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+background-color: #121212;
+border-radius: 8px;
+padding: 16px 0 0  16;
+}
+
+.sidebar__navigation .Logo{
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .Logo img {
+width: 80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.library .library__button{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    
+}
+.library .library__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+
+}
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+    
+}
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+
+}
+.section-playlist .section-playlist__content{
+    display: flex;
+    flex-direction: column;
+
+}
+.section-playlist__content .text{
+    padding-bottom: 14px;
+    color: white;
+
+}
+.section-playlist__content .title{
+    font-weight: 700;
+
+}
+.section-playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.section-playlist__content .section-playlist__button{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    margin-top: 12px;
+
+}
+
+.sidebar .legal,
+.sidebar .centro,
+.sidebar .cookies,
+.sidebar .sobre,
+.sidebar .acessibilidade,
+.sidebar .notice,
+.sidebar .your,
+.sidebar .cookies2 {
+    margin: 0px 0px;
+    display: block; 
+}
+
+.sidebar .legal a,
+.sidebar .centro a,
+.sidebar .cookies a,
+.sidebar .sobre a,
+.sidebar .acessibilidade a,
+.sidebar .notice a,
+.sidebar .your a,
+.sidebar .cookies2 a {
+    color: #b3b3b3;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block; 
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+
+}
+.languages .languages__button{
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+.disclaimer-premium {
+    padding: 0px 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 19px;
+    margin-bottom: -15px;
+    
+    
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+}
+.button {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 51px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+.button button:hover {
+    padding: 23px 54px;
+}

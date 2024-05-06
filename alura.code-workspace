@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../assets"
+		},
+		{
+			"path": "../js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "alura"
+	}
+}
